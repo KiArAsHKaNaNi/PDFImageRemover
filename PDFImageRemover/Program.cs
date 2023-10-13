@@ -13,8 +13,8 @@ namespace PDFImageRemover
     {
         static void Main(string[] args)
         {
-            string inputPdfPath = @"D:\Documents\Getting_Started_With_TestComplete.pdf"; 
-            string outputFolder = @"D:\PDFToJPG\New8"; 
+            string inputPdfPath = @""; 
+            string outputFolder = @""; 
 
             if (!Directory.Exists(outputFolder))
             {
